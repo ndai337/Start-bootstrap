@@ -1,0 +1,157 @@
+.flex-box{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    
+
+}
+
+.flex-box img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black(0,0,0,0.2);
+    flex: 1 1 150px;
+}
+.divider{
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25;
+    border-color: #2c3e50;
+
+}
+.hr1{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    left: 200px;
+}
+
+.hr2{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    right: 210px;
+}
+.line-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+.line1{
+    width: 100px;
+    height: 4px;
+   background-color: #333;
+}
+.star{
+    color: white;
+    font-size: 50px;
+    padding: 0 15px;
+
+}
+.star1{
+    font-size: 50px;
+    color: #333;
+    padding: 0 15px;
+}
+
+
+.tino{
+    display: flex;
+    justify-content: center;
+}
+
+.hr3{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(182, 35, 35);
+    position: relative;
+    left: px;
+}
+
+.hr4{
+    width: 60px;
+    height: 3px;
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    right: -210px;
+    bottom: 20px;
+}
+.hr5{
+    width: 60px;
+    height: 3px;
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    right: 175px;
+    bottom: 20px;
+}
+.stor{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 490px;
+    bottom: 25px;
+}
+.hr6{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    right: 400px;
+}
+.line2{
+
+    display: flex;
+    justify-content: center;
+}
+.hr7{
+width:50px ;
+height: 4px;
+background-color:black ;
+position: relative;
+right: 300px; 
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 3rem;
+    text-decoration-color: white;
+    border-radius: 8px;
+    
+}
+.foot p h4 img{
+    width: 30px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.left, .right{
+    width: 400px;
+    text-align: start;
+}
+.btn{
+    background-color: transparent;
+    border: solid;
+}
